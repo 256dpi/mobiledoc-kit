@@ -1,5 +1,5 @@
 {
-  "name": "mobiledoc-kit",
+  "name": "@256dpi/mobiledoc-kit",
   "version": "0.14.2",
   "description": "A toolkit for building WYSIWYG editors with Mobiledoc",
   "repository": "https://github.com/bustle/mobiledoc-kit",
@@ -78,5 +78,8 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
