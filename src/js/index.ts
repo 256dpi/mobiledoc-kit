@@ -8,6 +8,7 @@ import VERSION from './version'
 import Renderer, { MOBILEDOC_VERSION } from './renderers/mobiledoc'
 import DOMParser from './parsers/dom'
 import PostNodeBuilder from './models/post-node-builder'
+import { addSectionTag, addMarkupTag, addAttribute } from './models/customization'
 
 export {
   Editor,
@@ -21,4 +22,7 @@ export {
   Renderer,
   VERSION,
   MOBILEDOC_VERSION,
+  addSectionTag,
+  addMarkupTag,
+  addAttribute,
 }
